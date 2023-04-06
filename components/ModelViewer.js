@@ -11,7 +11,7 @@ const ModelViewer = ({ modelPath, scale = 0, position = [0, 0, 0] }) => {
       <Canvas>
         <ambientLight intensity={0.3} />
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-        <pointLight position={[-10, -10, -10]} />
+        <pointLight position={[10, 10, 10]} />
         <Suspense fallback={null}>
           <GltfModel modelPath={modelPath} scale={scale} position={position} />
           <OrbitControls />

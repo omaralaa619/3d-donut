@@ -7,7 +7,7 @@ import ModelViewer from "@/components/ModelViewer";
 const index = () => {
   return (
     <div className={classes.container}>
-      <ModelViewer scale={35} modelPath={"/donutweb.glb"} />
+      <ModelViewer scale={20} modelPath={"/donut1.glb"} />
     </div>
   );
 };
